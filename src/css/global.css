@@ -1,0 +1,91 @@
+/* 공통 css */
+h1, a, div, p, section, article, input, textarea {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+input, button {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	overflow: hidden;
+}
+img {
+	vertical-align: bottom;
+}
+
+a:focus, input:focus, button:focus, textarea:focus {
+	outline: 3px solid rgba(#37abec, 0.2);
+	box-shadow: 0 0 0 1px #37a0ec;
+}
+
+body {
+	background: #f9f9f9;
+}
+
+.a11y-hidden {
+	overflow: hidden;
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+}
+
+.max-width {
+	width: 1224px;
+	max-width: calc(100% - 4rem);
+	margin: 0 auto;
+}
+
+.link-underline {
+	display: block;
+	width: 5em;
+	text-align: center;
+	text-decoration: underline;
+	color: #767676;
+	padding: 0.4rem 1rem;
+	margin: 1rem 0 auto auto;
+	transition: all 0.3s;
+}
+
+.link-underline:hover {
+	color: #37aaec;
+}
+
+.not-found {
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.not-found h2 {
+	color: #37aaec;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.not-found p {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}

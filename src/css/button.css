@@ -1,0 +1,110 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.8rem;
+	height: 4rem;
+	padding: 0.2rem 1.2em 0;
+	border: 0;
+	border-radius: 0.4em;
+	background: #28303f;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.button img {
+	height: 1.2em;
+	margin-top: -0.2rem;
+	vertical-align: middle;
+}
+
+.button.fullWidth {
+	width: 100%;
+}
+.button.gray {
+	background: #f5f5f5;
+	color: #28303f;
+}
+.button.white {
+	padding: 0.2rem 0.8em 0;
+	background: #fff;
+	color: #28303f;
+	border: 1px solid #28303f;
+}
+.button.white img {
+	height: 1.4em;
+}
+
+.btn-delete:focus {
+	outline-color: rgba(#f37c4b, 0.2);
+	box-shadow: 0 0 0 1px #f37c4b;
+}
+
+/* 저장 버튼 */
+.btn-save {
+	width: 9.6rem;
+	height: 4rem;
+	padding-left: 2.4rem;
+	border: 1px solid rgba(#37abec, 0.5);
+	border-radius: 0.4em;
+	background: #fff url(../assets/icon-save.svg) no-repeat 2rem 50% / 1.6rem;
+	transition: all 0.3s;
+}
+.btn-save:hover {
+	background: #37aaec url(../assets/icon-save-white.svg) no-repeat 2rem 50% / 1.6rem;
+	color: #fff;
+}
+
+/* 뒤로가기 */
+.btn-back {
+	width: 6.4rem;
+	height: 6.4rem;
+	border-radius: 0 0.4em 0.4em 0;
+	background: #f5f5f5 url(../assets/ArrowLeft-blue.svg) no-repeat 50% 50% / 4rem;
+	font-size: 1.6rem;
+}
+
+.btn-like {
+	width: 12rem;
+	height: 4rem;
+	padding-left: 3rem;
+	border: 1px solid rgba(#f37c4b, 0.5);
+	border-radius: 0.4em;
+	background: #fff url(../assets/icon-like.svg) no-repeat 2.5rem 50% / 2.4rem;
+	transition: all 0.3s;
+}
+.btn-like:hover,
+.btn-like.active {
+	background: #f37c4b url(../assets/icon-like-white.svg) no-repeat 2.5rem 50% / 2.4rem;
+	color: #fff;
+}
+.btn-like:focus {
+	outline-color: rgba(#f37c4b, 0.2);
+	box-shadow: none;
+}
+
+.btn-modify,
+.btn-delete {
+	width: 4rem;
+	height: 4rem;
+	border: 0;
+	border-radius: 0.4em;
+	transition: all 0.3s;
+}
+.btn-modify {
+	background: #f5f5f5 url(../assets/icon-modify.svg) no-repeat 50% 50% / 1.6rem;
+	right: 13rem;
+}
+.btn-modify:hover {
+	background: #37aaec url(../assets/icon-modify-white.svg) no-repeat 50% 50% / 1.6rem;
+}
+
+.btn-delete {
+	background: #f5f5f5 url(../assets/icon-delete.svg) no-repeat 50% 50% / 1.6rem;
+}
+
+.btn-delete:hover {
+	background: #f37c4b url(../assets/icon-delete-white.svg) no-repeat 50% 50% / 1.6rem;
+}

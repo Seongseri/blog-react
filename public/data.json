@@ -1,0 +1,149 @@
+{
+	"blog": {
+		"mainTitle": "My BLOG"
+	},
+	"posts": [
+		{
+			"id": 1,
+			"thumbnail": "/assets/post-img1.jpg",
+			"title": "포도",
+			"mainBg": "/assets/post-background1.jpg",
+			"contents": [
+				{
+					"type": "img",
+					"src": "/assets/post-background1.jpg"
+				},
+				{
+					"type": "p",
+					"text": "‘애늙은이’라는 별명을 명찰처럼 달았던 때가 있다. 엄마는 내게 나중에 나이가 들어도 그 얼굴이 똑같을 거라며 이득이 아니냐고 말했다. 그렇게 ‘애’자만 떨어지고 ‘늙은이’가 별명으로 남았다지…"
+				},
+				{
+					"type": "p",
+					"text": "위로할 필요는 없다. 이제는 물건도 사람도 ‘레트로(복고)’가 대세이기 때문이다. 노래도 옛날 노래가 좋고, 패션도 구제가 대세다. 그렇다. 연식에 비해 얼굴이 빈티지인 내가 당당해질 수 있는 시대가 온 것이다. 힙하고 싶은데 안된다고? 당신의 도시적인 외모를 한탄하라 에헴."
+				},
+				{
+					"type": "p",
+					"text": "레트로에 대한 열풍은 이미 단종된 음료수를 세상에 내놓게 했다. 오늘 마시즘은 당신의 힙함을 살려줄 마지막 단추. 레트로 음료수를 소개한다."
+				}
+			],
+			"userName": "Seri",
+			"created": "2022.04.01"
+		},
+		{
+			"id": 2,
+			"thumbnail": "/assets/post-img2.jpg",
+			"title": "돌아온 축배사이다 갈배사이다",
+			"mainBg": "/assets/post-background2.jpg",
+			"contents": [
+				{
+					"type": "img",
+					"src": "/assets/post-background2.jpg"
+				},
+				{
+					"type": "p",
+					"text": "사이다를 이야기할 때, 빠지지 않는 전설의 음료가 있다. 해태음료에서 만든 ‘축배사이다’다. 천편일률 같던 사이다 시장에 등장한 배 맛 사이다. 하지만 말하는 순간 나이와 낡은 취향이 드러났기에 추억은 하되, 입 밖으로는 내놓을 수 없는 볼드모트 같은 음료수였다."
+				},
+				{
+					"type": "p",
+					"text": "갈배사이다를 구했다. 가까이 편의점에는 없고 동네슈퍼나 대형마트를 뒤져야 한다(편의점에 파는 축배사이다는 상상할 수 없으니까). 모름지기 힘들게 구한 음료가 더 시원한 법. 갈배사이다를 마셨다. 갈아만든 배의 알갱이가 탄산으로 변한 기분이다. 축배사이다와 맛과 분위기가 닮았지만, 갈배사이다 쪽이 배향이 더욱 짙다."
+				},
+				
+				{
+					"type": "p",
+					"text": "페트를 사 오지 않고, 캔을 사 온 것이 아쉬울 정도였다. 갈배사이다… 이 녀석은 축배사이다를 그리워했던 것이 틀리지 않았음을 보여준다."
+				}
+			],
+			"userName": "Seri",
+			"created": "2022.04.02"
+		},
+		{
+			"id": 3,
+			"thumbnail": "/assets/post-img3.jpg",
+			"title": "90년대 엄치척의 주인공 따봉 감귤 주스",
+			"mainBg": "/assets/post-background3.jpg",
+			"contents": [
+				{
+					"type": "p",
+					"text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel."
+				},
+				{
+					"type": "img",
+					"src": "/assets/post-background3.jpg"
+				},
+				{
+					"type": "p",
+					"text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel."
+				}
+			],
+			"userName": "Seri",
+			"created": "2022.04.03"
+		},
+		{
+			"id": 4,
+			"thumbnail": "/assets/post-img4.jpg",
+			"title": "Dolor, voluptatem minima nobis ullam voluptate fugiat, idplaceat optio magni laborum iste!",
+			"mainBg": "/assets/post-background4.jpg",
+			"contents": [
+				{
+					"type": "p",
+					"text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel."
+				},
+				{
+					"type": "img",
+					"src": "/assets/post-background4.jpg"
+				},
+				{
+					"type": "p",
+					"text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel."
+				}
+			],
+			"userName": "Seri",
+			"created": "2022.04.04"
+		},
+		{
+			"id": 5,
+			"thumbnail": "/assets/post-img5.jpg",
+			"title": "아오리 사과",
+			"mainBg": "/assets/post-background5.jpg",
+			"contents": [
+				{
+					"type": "p",
+					"text": "다 익기 전에 딴 사과를 뜻한다. 다 익은 사과보다 아삭한 식감이 있으며 이 때문에 호불호가 약간 갈린다. 덜 익은 것이니만큼 크기는 일반 사과에 비해 작은 편이다. 많이들 착각하는데, 흔히 풋사과로 아는 아오리는 풋사과가 아니다. 아오리는 사과의 품종 중 하나이고 다 익은 사과이므로 풋사과(덜 익은 사과)와는 다르다. 풋사과는 단순히 덜 익은 사과를 의미하므로 품종과는 관계가 없다."
+				},
+				{
+					"type": "p",
+					"text": "많이들 착각하는데, 흔히 풋사과로 아는 아오리는 풋사과가 아니다. 아오리는 사과의 품종 중 하나이고 다 익은 사과이므로 풋사과(덜 익은 사과)와는 다르다. 풋사과는 단순히 덜 익은 사과를 의미하므로 품종과는 관계가 없다."
+				},
+				{
+					"type": "img",
+					"src": "/assets/post-background5.jpg"
+				},
+				{
+					"type": "p",
+					"text": "원래 색이 푸른 사과 품종이라고 잘못 아는 경우도 있지만, 실은 아오리도 오래 놔두면 빨개진다. 아오리는 풋사과로 먹더라도 신맛이 일반 빨간색 사과보다 조금 강하고 과육이 약간 더 단단하다. 전반적으로 청량감이 강한 맛이다."
+				}
+			],
+			"userName": "Seri",
+			"created": "2022.05.25"
+		}
+	],
+
+	"users": [
+		{
+			"id": 1,
+			"email": "Seri@blog.com",
+			"profileImg": "/assets/profile.jpg",
+			"name": "Seri",
+			"userInfo": "블로그 만드는 중",
+			"sns": { "GitHub": ""}
+		},
+		{
+			"id": 2,
+			"email": "binky@blog.com",
+			"profileImg": "/assets/profile.jpg",
+			"name": "Binky",
+			"userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"sns": { "GitHub": ""}
+		}
+	]
+}

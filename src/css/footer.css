@@ -1,0 +1,17 @@
+footer .max-width {
+	display: flex;
+	justify-content: center;
+	height: 5em;
+	position: relative;
+}
+
+.top-button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 4em;
+	height: 4em;
+	border: none;
+	border-radius: 50%;
+	background: black  url(../assets/ArrowTop.svg) no-repeat 50% 0.4rem / 3rem;
+}
