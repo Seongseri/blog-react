@@ -23,19 +23,19 @@
 }
 
 .contents-wrap h3 {
-	height: 62px;
+	height: 44px;
 	margin: 1rem 0;
-	font-size: 1.8rem;
+	font-size: 24px;
 	font-weight: bold;
 	-webkit-line-clamp: 2;
 	letter-spacing: -0.02em;
 }
 
 .contents-wrap .post-description {
-	height: 90px;
+	height: 54px;
 	margin-top: 1.6rem;
 	color: #767676;
-	font-size: 1.4rem;
+	font-size: 18px;
 	-webkit-line-clamp: 3;
 	text-indent: 0.5em;
 }

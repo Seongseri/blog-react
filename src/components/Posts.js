@@ -16,7 +16,6 @@ function Posts({ ...data }) {
             thumbnail={item.thumbnail}
             authorName={item.userName}
             created={item.created}
-            categories={item.category}
           ></PostCard>
         ))
         .reverse()}

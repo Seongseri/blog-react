@@ -2,13 +2,12 @@ footer .max-width {
 	display: flex;
 	justify-content: center;
 	height: 5em;
-	position: relative;
 }
 
 .top-button {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
 	width: 4em;
 	height: 4em;
 	border: none;

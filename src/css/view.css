@@ -5,10 +5,10 @@
 /* contents */
 .view-contents img {
 	max-width: 100%;
-	margin: 3.2rem 0;
+	margin: 51px 0;
 }
 .view-contents p {
-	font-size: 1.6rem;
+	font-size: 18px;
 	line-height: 1.6;
 	text-align: justify;
 	letter-spacing: -0.01em;
@@ -16,16 +16,16 @@
 
 /* title */
 .view .wrap-box .author-wrap {
-	height: 6.4rem;
-	font-size: 1.4rem;
+	height: 102px;
+	font-size: 22px;
 }
 .title-wrap {
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
-	gap: 8rem;
-	margin-bottom: 1rem;
-	font-size: 1.6rem;
+	gap: 128px;
+	margin-bottom: 16px;
+	font-size: 26px;
 }
 .title-wrap h2 {
 	width: 100%;
@@ -35,12 +35,12 @@
 @media (max-width: 1024px) {
 	.title-wrap {
 		flex-direction: column;
-		gap: 2rem;
+		gap: 32px;
 	}
 }
 
 .title-wrap h2 {
-	font-size: 3.2rem;
+	font-size: 51px;
 	font-weight: bold;
 }
 .title-wrap button {
@@ -49,28 +49,28 @@
 
 .view .wrap-box .btn-back {
 	position: absolute;
-	top: 8rem;
+	top: 128px;
 	left: 0;
 }
 
 @media (max-width: 1024px) {
 	.view .wrap-box .btn-back {
-		top: 6rem;
-		width: 5.2rem;
-		height: 5.2rem;
+		top: 96px;
+		width: 83px;
+		height: 83px;
 	}
 	.view .wrap-box .author-wrap {
-		height: 5.2rem;
-		margin-bottom: 1rem;
+		height: 83px;
+		margin-bottom: 16px;
 	}
 }
 
 @media (max-width: 640px) {
 	.view .wrap-box .btn-back {
-		top: 4rem;
+		top: 64px;
 	}
 	.view .wrap-box .author-wrap {
-		margin-bottom: 1rem;
-		padding-left: 3rem;
+		margin-bottom: 16px;
+		padding-left: 48px;
 	}
 }

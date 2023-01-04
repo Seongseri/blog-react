@@ -4,10 +4,10 @@
 	justify-content: center;
 	gap: 0.8rem;
 	height: 4rem;
-	padding: 0.2rem 1.2em 0;
-	border: 0;
+	padding: 3px 19px 0;
+	border: none;
 	border-radius: 0.4em;
-	background: #28303f;
+	background: #000;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -25,13 +25,13 @@
 }
 .button.gray {
 	background: #f5f5f5;
-	color: #28303f;
+	color: #000;
 }
 .button.white {
 	padding: 0.2rem 0.8em 0;
 	background: #fff;
-	color: #28303f;
-	border: 1px solid #28303f;
+	color: #000;
+	border: 1px solid #000;
 }
 .button.white img {
 	height: 1.4em;
@@ -67,29 +67,29 @@
 }
 
 .btn-like {
-	width: 12rem;
+	width: 6rem;
 	height: 4rem;
-	padding-left: 3rem;
-	border: 1px solid rgba(#f37c4b, 0.5);
+	border: 1px solid rgba(#000, 0.5);
 	border-radius: 0.4em;
-	background: #fff url(../assets/icon-like.svg) no-repeat 2.5rem 50% / 2.4rem;
 	transition: all 0.3s;
+	background: transparent;
 }
 .btn-like:hover,
 .btn-like.active {
-	background: #f37c4b url(../assets/icon-like-white.svg) no-repeat 2.5rem 50% / 2.4rem;
-	color: #fff;
+	background: #f5f5f5;
+	color: #000;
+	border: none;
 }
 .btn-like:focus {
-	outline-color: rgba(#f37c4b, 0.2);
-	box-shadow: none;
+	outline-color: rgba(#f5f5f5, 0.2);
+	box-shadow: 0 0 0 1px #f5f5f5;
 }
 
 .btn-modify,
 .btn-delete {
 	width: 4rem;
 	height: 4rem;
-	border: 0;
+	border: none;
 	border-radius: 0.4em;
 	transition: all 0.3s;
 }

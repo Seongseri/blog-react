@@ -14,6 +14,13 @@ const View = ({ userData, post }) => {
     }
   }, [post]);
 
+  let [like, setLike] = useState([0,0,0]);
+  const [isOpen, setOpen] = useState(false);
+
+  const onClick = () => {
+    setOpen(true);
+  };
+
   return (
     <div className='view'>
       <div className='max-width'>
@@ -24,13 +31,17 @@ const View = ({ userData, post }) => {
           />
           <div className='title-wrap'>
             <h2>{post && post.title}</h2>
-            <button className='btn-like'>Like</button>
+            <button className='btn-like' onClick={(e)=>{
+                  e.stopPropagation(); 
+                  let copy = [...like]; 
+                  copy[0] += 1; 
+                  setLike(copy);}}>❤ {like[0]}</button>
           </div>
           <hr />
           <div className='view-contents'>
-            {postContent.map((item) => {
+            {postContent.map((item, i) => {
               if (item.type === "p") {
-                return <p key={Math.random() * 100}>{item.text}</p>;
+                return <p key={i}>{item.text}</p>;
               }
               if (item.type === "img") {
                 return <img src={item.src}></img>;
