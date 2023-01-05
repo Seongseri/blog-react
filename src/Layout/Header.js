@@ -10,15 +10,17 @@ import { Link } from "react-router-dom";
 function Header({ isLoggedin, setIsLoggedIn }) {
   return (
     <header className="nav">
-      <div className='max-width'>
-        <h1 className='header-h1'>
-          <a className='header-h1-a' href='./'>My Blog</a>
+      <div className="max-width">
+        <h1 className="header-h1">
+          <a className="header-h1-a" href="./">
+            My Blog
+          </a>
         </h1>
         <ul className="header-btn">
           {isLoggedin ? (
             <li>
               <Link to="/write">
-                <button className='button' onClick={Write}>
+                <button className="button" onClick={Write}>
                   <span>글쓰기</span>
                 </button>
               </Link>
@@ -29,7 +31,7 @@ function Header({ isLoggedin, setIsLoggedIn }) {
                 setIsLoggedIn(!isLoggedin);
               }}
             >
-              <a href='#' className='button gray'>
+              <a href="#" className="button gray">
                 <span>로그인</span>
               </a>
             </li>
@@ -40,15 +42,9 @@ function Header({ isLoggedin, setIsLoggedIn }) {
             }}
           >
             {isLoggedin ? (
-              <Button
-                classes={'button gray'}
-                buttonTxt={"로그아웃"}
-              ></Button>
+              <Button classes={"button gray"} buttonTxt={"로그아웃"}></Button>
             ) : (
-              <Button
-                classes={'button gray'}
-                buttonTxt={"회원가입"}
-              ></Button>
+              <Button classes={"button gray"} buttonTxt={"회원가입"}></Button>
             )}
           </li>
         </ul>

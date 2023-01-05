@@ -29,11 +29,5 @@
     height: 500px
 }
 
-.Write button {
-    position: absolute;
-    right: 15px;
-    bottom: 14px;
-}
-
 #content_txt:focus { outline: none; }
 #title_txt:focus { outline: none; }

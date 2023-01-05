@@ -4,8 +4,8 @@ import "../css/posts.css";
 
 function Posts({ ...data }) {
   return (
-    <ul className='posts'>
-      <h2 className='a11y-hidden'>Post</h2>
+    <ul className="posts">
+      <h2 className="a11y-hidden">Post</h2>
       {data.data
         .map((item) => (
           <PostCard

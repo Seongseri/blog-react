@@ -136,14 +136,6 @@
 			"name": "Seri",
 			"userInfo": "블로그 만드는 중",
 			"sns": { "GitHub": ""}
-		},
-		{
-			"id": 2,
-			"email": "binky@blog.com",
-			"profileImg": "/assets/profile.jpg",
-			"name": "Binky",
-			"userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-			"sns": { "GitHub": ""}
 		}
 	]
 }

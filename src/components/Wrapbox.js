@@ -3,8 +3,8 @@ import "../css/wrapbox.css";
 
 function Wrapbox({ children }) {
   return (
-    <section className='wrap-box'>
-      <div className='inner'>{children}</div>
+    <section className="wrap-box">
+      <div className="inner">{children}</div>
     </section>
   );
 }

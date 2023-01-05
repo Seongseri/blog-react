@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import "../src/css/global.css";
 import "../src/css/main.css";
@@ -29,7 +29,6 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
     <div className='App'>
         <Header isLoggedin={isLoggedin} setIsLoggedIn={setIsLoggedIn}></Header>
         <Routes>
@@ -50,9 +49,7 @@ function App() {
           <Route path="/write" element={<Write/>} />
         </Routes>
         <Footer></Footer>
-      </div>
-    </BrowserRouter>
-      
+      </div>      
   );
 }
 

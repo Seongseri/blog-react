@@ -6,7 +6,7 @@ const Home = ({ blogData, postData, userData }) => {
   return (
     <>
       <main>
-        <div className='max-width'>
+        <div className="max-width">
           <Posts data={postData}></Posts>
           <About data={userData}></About>
         </div>

@@ -3,13 +3,11 @@ import "../css/author.css";
 
 const Author = ({ img, name, created }) => {
   return (
-    <dl className='author-wrap'>
-      <dt className='a11y-hidden'>Author</dt>
-      <dd className='author'>
-        {name}
-      </dd>
-      <dt className='a11y-hidden'>Created</dt>
-      <dd className='created'>{created}</dd>
+    <dl className="author-wrap">
+      <dt className="a11y-hidden">Author</dt>
+      <dd className="author">{name}</dd>
+      <dt className="a11y-hidden">Created</dt>
+      <dd className="created">{created}</dd>
     </dl>
   );
 };
